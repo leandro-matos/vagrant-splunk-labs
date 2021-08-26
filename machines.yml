@@ -1,0 +1,35 @@
+- name: sh.local.com
+  cpus: 1
+  memory: 1024
+  hostname: sh.local.com
+  ip: 192.168.50.11
+  system: centos/7
+
+
+- name: idx.local.com
+  cpus: 1
+  memory: 1024
+  hostname: idx.local.com
+  ip: 192.168.50.12
+  system: centos/7
+
+- name: deployserv.local.com
+  cpus: 1
+  memory: 1024
+  hostname: deployserv.local.com
+  ip: 192.168.50.13
+  system: centos/7
+
+- name: uf1.local.com
+  cpus: 1
+  memory: 1024
+  hostname: uf1.local.com
+  ip: 192.168.50.201
+  system: centos/7
+
+- name: uf2.local.com
+  cpus: 1
+  memory: 512
+  hostname: uf2.local.com
+  ip: 192.168.50.202
+  system: centos/7
