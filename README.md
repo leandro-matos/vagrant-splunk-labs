@@ -1,5 +1,5 @@
 
-## Criação de Máquinas Virtuais para laboratórios de um ambiente Splunk Clusterizado
+## Máquinas Virtuais para laboratórios de um ambiente Splunk Clusterizado
 
 O **Vagrant** nos auxiliará a criar e gerenciar as máquinas de uma maneira muito mais simples e rápida do que se precisássemos instalá-las manualmente. A solução atualmente está composta por algumas máquinas que fazem o papel de Search-Head, Indexers e alguns forwarders para encaminhamento dos logs. Basta validar o arquivo de configuração do `Vagrantfile` 
 
@@ -48,3 +48,7 @@ Para desligar as máquinas:
 ```bash
 vagrant halt
 ```
+
+## Em desenvolvimento
+- Separação das funções de cada componente do Cluster
+- Indexação de Outros tipos de logs
